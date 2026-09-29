@@ -12,3 +12,269 @@
 .sectionIntro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:20px}.sectionIntro p{color:#777;font-size:12px;margin:7px 0 0}.examGrid,.ytGrid,.projectGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.examCard,.contentCard,.projectCard{min-height:230px}.cardTop{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:15px}.examMeta,.projectMeta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:13px 0;color:#777;font-size:9px}.examMeta b{color:#aaa}.progressLabel{display:flex;justify-content:space-between;font-size:10px;color:#777;margin:16px 0 7px}.progressLabel b{color:var(--accent)}.unitStepper{display:flex;align-items:center;justify-content:space-between;margin-top:14px}.unitStepper .secondary{padding:5px 10px}.unitStepper strong{font:700 12px 'Space Grotesk'}.cardNote{font-size:9px;color:#696970;line-height:1.5;margin:14px 0 0;padding-top:10px;border-top:1px solid #22232a}.videoIcon{width:38px;height:38px;border-radius:10px;background:#241316;color:#ff6677;display:grid;place-items:center;font-size:14px}.contentCard h3{font-size:15px;line-height:1.35;min-height:40px}.tagRow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:11px}.tagRow>span{font-size:8px;color:#777;background:#19191d;border:1px solid #29292f;padding:4px 7px;border-radius:99px}.videoDate{display:flex;align-items:center;gap:5px;color:#777;font-size:9px;margin-top:14px}.videoLink{display:inline-flex;align-items:center;gap:5px;color:var(--accent);font-size:9px;margin-top:12px;text-decoration:none}.projectBadge{font-size:8px;letter-spacing:1px;color:#a9a9b2;border:1px solid #2b2b31;border-radius:99px;padding:5px 8px}.projectCard h3{font-size:16px}.projectMeta{margin-top:14px}.projectMeta span{max-width:50%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.projectCard .bar{margin-top:0}
 @media(max-width:1100px){.examGrid,.ytGrid,.projectGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.sectionIntro h2{font-size:27px}.sectionIntro p{font-size:10px}.examGrid,.ytGrid,.projectGrid{grid-template-columns:1fr}.examCard,.contentCard,.projectCard{min-height:0}}
+
+/* Larger & More Readable Text */
+
+@media (min-width: 721px) {
+
+  .sidebar nav button {
+    font-size: 14px;
+  }
+
+  .brand b {
+    font-size: 18px;
+  }
+
+  .brand span {
+    font-size: 12px;
+  }
+
+  .sidebar nav em {
+    font-size: 12px;
+  }
+
+  .streak b {
+    font-size: 13px;
+  }
+
+  .streak small {
+    font-size: 11px;
+  }
+
+  .storage {
+    font-size: 11px;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .datePill,
+  .primary,
+  .secondary,
+  .textBtn,
+  .iconBtn {
+    font-size: 13px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .heroRing b {
+    font-size: 22px;
+  }
+
+  .heroRing span {
+    font-size: 10px;
+  }
+
+  .stat span,
+  .stat small {
+    font-size: 11px;
+  }
+
+  .stat strong {
+    font-size: 24px;
+  }
+
+  .taskInfo > b {
+    font-size: 13px;
+  }
+
+  .taskInfo label,
+  .priority {
+    font-size: 10px;
+  }
+
+  .status {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+
+  .pipe span {
+    font-size: 10px;
+  }
+
+  .pipe b {
+    font-size: 20px;
+  }
+
+  .miniApp b {
+    font-size: 12px;
+  }
+
+  .miniApp small {
+    font-size: 10px;
+  }
+
+  .quote b {
+    font-size: 12px;
+  }
+
+  .quote p {
+    font-size: 11px;
+  }
+
+  .quoteCount {
+    font-size: 11px;
+  }
+
+  .search input {
+    font-size: 13px;
+  }
+
+  .filters button {
+    font-size: 12px;
+  }
+
+  th {
+    font-size: 10px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+
+  .calendarTop p {
+    font-size: 13px;
+  }
+
+  .monthHead h3 {
+    font-size: 18px;
+  }
+
+  .weekdays span {
+    font-size: 9px;
+  }
+
+  .dayNum {
+    font-size: 13px;
+  }
+
+  .dayMeta {
+    font-size: 10px;
+  }
+
+  .dayMeta b {
+    font-size: 10px;
+  }
+
+  .dayDots em {
+    font-size: 9px;
+  }
+
+  .calendarLegend {
+    font-size: 10px;
+  }
+
+  .selectedPct b {
+    font-size: 24px;
+  }
+
+  .daySummary b {
+    font-size: 18px;
+  }
+
+  .daySummary span {
+    font-size: 9px;
+  }
+
+  .sectionIntro p {
+    font-size: 13px;
+  }
+
+  .examMeta,
+  .projectMeta {
+    font-size: 10px;
+  }
+
+  .progressLabel {
+    font-size: 11px;
+  }
+
+  .unitStepper strong {
+    font-size: 13px;
+  }
+
+  .cardNote {
+    font-size: 10px;
+  }
+
+  .contentCard h3 {
+    font-size: 17px;
+  }
+
+  .tagRow > span {
+    font-size: 9px;
+  }
+
+  .videoDate {
+    font-size: 10px;
+  }
+
+  .videoLink {
+    font-size: 10px;
+  }
+
+  .projectBadge {
+    font-size: 9px;
+  }
+
+  .projectCard h3 {
+    font-size: 18px;
+  }
+
+  .projectUpdateRow {
+    font-size: 13px;
+  }
+
+  .projectUpdateRow .textBtn {
+    font-size: 13px;
+  }
+
+  .historyItem b {
+    font-size: 14px;
+  }
+
+  .historyItem span {
+    font-size: 11px;
+  }
+
+  .historyItem p {
+    font-size: 12px;
+  }
+
+  .empty {
+    font-size: 12px;
+  }
+
+  .modalHead h3 {
+    font-size: 20px;
+  }
+
+  .field > span {
+    font-size: 11px;
+  }
+
+  .field input,
+  .field select {
+    font-size: 13px;
+  }
+
+  .modalHint {
+    font-size: 12px;
+  }
+}
