@@ -278,3 +278,54 @@
     font-size: 12px;
   }
 }
+
+/* Bigger Main Content Only */
+
+@media (min-width: 721px) {
+  main h1 { font-size: 30px; }
+  main h2 { font-size: 38px; }
+  main h3 { font-size: 20px; }
+
+  main .eyebrow { font-size: 12px; }
+
+  .hero p { font-size: 15px; }
+
+  .stat span,
+  .stat small { font-size: 12px; }
+
+  .stat strong { font-size: 26px; }
+
+  .taskInfo > b { font-size: 14px; }
+
+  .taskInfo label,
+  .priority { font-size: 11px; }
+
+  .status { font-size: 11px; }
+
+  .pipe span { font-size: 11px; }
+  .pipe b { font-size: 22px; }
+
+  .miniApp b { font-size: 13px; }
+  .miniApp small { font-size: 11px; }
+
+  .search input { font-size: 14px; }
+  .filters button { font-size: 13px; }
+
+  th { font-size: 11px; }
+  td { font-size: 13px; }
+
+  .calendarTop p,
+  .sectionIntro p { font-size: 14px; }
+
+  .monthHead h3 { font-size: 20px; }
+  .dayNum { font-size: 14px; }
+  .dayMeta { font-size: 11px; }
+
+  .contentCard h3,
+  .projectCard h3 { font-size: 19px; }
+
+  .cardNote { font-size: 11px; }
+
+  .empty { font-size: 13px; }
+}
+
